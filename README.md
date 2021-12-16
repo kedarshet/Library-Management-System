@@ -32,8 +32,11 @@ node app.js
 ```
 
 
-### SCREENSHOTS:
-![SIGNUP PAGE](https://github.com/kedarshet/Library-Management-System/tree/main/images/signup.jpg)
-![HOME PAGE](https://github.com/kedarshet/Library-Management-System/tree/main/images/home.jpg)
-![BOOKS PAGE](https://github.com/kedarshet/Library-Management-System/tree/main/images/books.jpg)
+### SCREENSHOTS (JUST A GLIMSE):
+#### SIGNUP PAGE
+![](https://github.com/kedarshet/Library-Management-System/blob/main/images/signup.jpg?raw=true)
+#### HOME PAGE
+![](https://github.com/kedarshet/Library-Management-System/blob/main/images/home.jpg?raw=true)
+#### BOOKS PAGE
+![](https://github.com/kedarshet/Library-Management-System/blob/main/images/books.jpg?raw=true)
 
