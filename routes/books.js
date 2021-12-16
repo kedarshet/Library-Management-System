@@ -18,7 +18,7 @@ app.get('/books', (req, res)=>{
         pool = require('../database/users/scholar.js');
       }
       const displayBooks = (request, response) => {
-        pool.query('SELECT * FROM books',  (error, results) => {
+        pool.query('SELECT * FROM books order by book_id',  (error, results) => {
             if (error) {
               throw error
             }

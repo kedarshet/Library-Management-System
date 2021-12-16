@@ -1,11 +1,39 @@
 
 # Library Management Website Using Postgres, EJS, Node-Express
 
-### ABSTRACT
+### ABSTRACT:
 To demonstrate the working of the library management system and cover the complete functionality of a full-fledged operation of the library. Through this development of database management of the library our objective is to store details of the borrower, publisher, author and other respective stakeholders that constitute a library.
 
-### Tools Used:
+### TOOLS USED:
 - Postgres SQL for Databade
 - EJS, HTML, CSS for frontend
 - Node,Express for Middleware
+
+### HOW TO RUN:
+Clone using:
+```
+git clone https://github.com/kedarshet/Library-Management-System.git
+```
+
+Install node modules in the same folder with:
+```
+npm init
+npm install express --save
+```
+
+Creating Database and table:
+```
+psql -U postgres -f ./database/create_database.sql
+```
+
+To run
+```
+node app.js
+```
+
+
+### SCREENSHOTS:
+![SIGNUP PAGE](https://github.com/kedarshet/Library-Management-System/tree/main/images/signup.jpg)
+![HOME PAGE](https://github.com/kedarshet/Library-Management-System/tree/main/images/home.jpg)
+![BOOKS PAGE](https://github.com/kedarshet/Library-Management-System/tree/main/images/books.jpg)
 
