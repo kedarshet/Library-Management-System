@@ -12,7 +12,7 @@ To demonstrate the working of the library management system and cover the comple
 ### HOW TO RUN:
 Clone using:
 ```
-git clone https://github.com/kedarshet/Library-Management-System.git
+git clone https://github.com/kedarshet/Library-Management-System.git "Library Management System"
 ```
 
 Install node modules in the same folder with:
