@@ -17,13 +17,12 @@ git clone https://github.com/kedarshet/Library-Management-System.git "Library Ma
 
 Install node modules in the same folder with:
 ```
-npm init
-npm install express --save
+npm i
 ```
 
 Creating Database and table:
 ```
-psql -U postgres -f ./database/create_database.sql
+psql -U postgres -f ./database/users/create_database.sql
 ```
 
 To run
