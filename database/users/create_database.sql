@@ -138,3 +138,12 @@ ALTER TABLE Writes  add CONSTRAINT Writes_Writes_book_id_fkey FOREIGN KEY (Write
 ALTER TABLE fine  drop CONSTRAINT fine_fine_book_id_fkey;
 ALTER TABLE fine  add CONSTRAINT fine_fine_book_id_fkey FOREIGN KEY  (Fine_Book_id,Fine_Member_id,Issue_date) REFERENCES Borrowed_by(Borrowed_Book_id, Borrowed_Member_id,Issue_date) on delete cascade on update no action;
 
+
+create User admin with password 'admin123' createdb;
+create User Scholar with password 'password' createdb;
+create User Reader with password 'pass' createdb;
+
+-- GRANT ALL on all tables in schema public TO librarian;
+ALTER USER admin WITH SUPERUSER;
+GRANT SELECT ON books TO Scholar;
+GRANT SELECT ON books,articles TO Reader;
